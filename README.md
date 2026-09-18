@@ -1,5 +1,4 @@
 # Atlas Imobiliária
-
 Landing page institucional para a **Atlas Imobiliária**, uma imobiliária de alto padrão com atuação em Fortaleza e região. O projeto apresenta um portfólio de imóveis, informações institucionais, diferenciais da empresa, depoimentos de clientes e um canal de contato.
 
 A aplicação foi desenvolvida com React, TypeScript, Vite e Tailwind CSS, priorizando uma experiência visual elegante, responsiva e orientada à conversão.
@@ -59,50 +58,7 @@ Também existe uma navegação por categorias:
 
 > Os filtros de categoria já possuem estado visual no React, mas a lista atualmente renderiza todos os imóveis cadastrados. A filtragem pode ser implementada em uma próxima etapa.
 
-### Diferenciais da Atlas
 
-A seção institucional destaca quatro benefícios:
-
-- assessoria completa;
-- portfólio exclusivo;
-- consultores especializados;
-- análise de potencial de valorização.
-
-### Sobre a empresa
-
-A página inclui um banner institucional com posicionamento de marca e informações sobre a atuação da Atlas Imobiliária desde 2014.
-
-### Depoimentos
-
-São exibidos depoimentos de clientes com:
-
-- avaliação visual em estrelas;
-- nome do cliente;
-- perfil da experiência;
-- comentário;
-- avatar com iniciais.
-
-### Formulário de contato
-
-O formulário contém campos para:
-
-- nome completo;
-- telefone ou WhatsApp;
-- e-mail;
-- mensagem.
-
-> O formulário ainda não está conectado a uma API, serviço de e-mail ou banco de dados. O botão de envio é apenas visual neste momento.
-
-### Rodapé
-
-O rodapé apresenta:
-
-- identidade visual da Atlas;
-- links institucionais e de imóveis;
-- links para redes sociais;
-- Instagram oficial configurado no layout;
-- informações de contato e localização;
-- indicação de CRECI.
 
 ## Tecnologias utilizadas
 
@@ -114,26 +70,6 @@ O rodapé apresenta:
 - **oxfmt** — formatação do código.
 - **Figma Make** — estrutura de configuração e integração do ambiente de prototipação.
 
-## Identidade visual
-
-O design utiliza uma estética sofisticada, com foco no mercado imobiliário de alto padrão.
-
-### Paleta principal
-
-- Fundo escuro: `#111108`
-- Fundo secundário: `#1a1a0f`
-- Superfície dos cards: `#222215`
-- Dourado principal: `#c9a452`
-- Dourado claro: `#e8c97a`
-- Texto principal: `#f0ead8`
-- Texto secundário: `#8a836e`
-
-### Tipografia
-
-- **Playfair Display** — títulos e elementos de destaque.
-- **Outfit** — textos, navegação, botões e informações auxiliares.
-
-As fontes são carregadas pelo Google Fonts em `src/index.css`.
 
 ## Estrutura do projeto
 
@@ -237,46 +173,6 @@ Depois, para visualizar localmente a build gerada:
 ```bash
 npm run preview
 ```
-
-Os arquivos finais serão gerados na pasta padrão de saída do Vite, normalmente `dist/`.
-
-## Como personalizar o projeto
-
-### Alterar imóveis
-
-Os imóveis são cadastrados diretamente no array `PROPERTIES`, localizado em `src/App.tsx`. Para adicionar ou editar um imóvel, altere os seguintes campos:
-
-- `id`;
-- `tag`;
-- `name`;
-- `location`;
-- `price`;
-- `beds`;
-- `area`;
-- `img`.
-
-Para uma aplicação real, recomenda-se substituir esse array por dados vindos de uma API ou CMS.
-
-### Alterar depoimentos
-
-Os depoimentos estão no array `TESTIMONIALS`, também em `src/App.tsx`. É possível alterar nomes, cargos, textos e iniciais dos avatares.
-
-### Alterar contatos
-
-Os dados de telefone, e-mail e localização aparecem na seção `CTA`, em `src/App.tsx`. Atualize esses valores antes de publicar o site em produção.
-
-### Alterar cores e estilos
-
-As principais cores e estilos globais estão definidos como variáveis CSS em `src/index.css`. Essa abordagem permite ajustar rapidamente a identidade visual sem precisar alterar todos os componentes individualmente.
-
-### Alterar imagens
-
-O projeto utiliza:
-
-- uma imagem local para o logo da marca;
-- imagens externas do Unsplash para os imóveis e banners.
-
-Em produção, é recomendado utilizar imagens próprias, otimizadas e hospedadas em um serviço confiável, além de verificar licenças e direitos de uso.
 
 ## Próximos passos
 
