@@ -1,0 +1,10 @@
+{
+  "description": "This interactive web application features a magnetic button that attracts surrounding elements, enhancing user engagement and creating dynamic visual effects.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
