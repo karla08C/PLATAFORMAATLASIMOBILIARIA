@@ -278,7 +278,7 @@ O projeto utiliza:
 
 Em produção, é recomendado utilizar imagens próprias, otimizadas e hospedadas em um serviço confiável, além de verificar licenças e direitos de uso.
 
-## Melhorias recomendadas
+## Próximos passos
 
 Para transformar o protótipo em uma plataforma imobiliária completa, recomenda-se implementar:
 
@@ -297,38 +297,6 @@ Para transformar o protótipo em uma plataforma imobiliária completa, recomenda
 13. acessibilidade com navegação por teclado, foco visível e textos alternativos revisados;
 14. substituição dos links sociais e botões demonstrativos por URLs e ações reais.
 
-## Boas práticas de desenvolvimento
-
-- Mantenha os componentes organizados e reutilizáveis.
-- Prefira dados externos ou tipados quando o volume de imóveis crescer.
-- Execute o build antes de abrir um pull request:
-
-```bash
-npm run build
-```
-
-- Formate o código antes de realizar um commit:
-
-```bash
-npm run format
-```
-
-- Evite inserir informações pessoais ou credenciais diretamente no código.
-- Use variáveis de ambiente para integrações, chaves e configurações específicas de cada ambiente.
-
 ## Status do projeto
 
 Este projeto está em fase de protótipo/front-end visual. A interface principal está implementada e responsiva, mas recursos como busca real, envio de formulário, persistência de dados e gerenciamento de imóveis ainda precisam ser integrados.
-
-## Licença
-
-Nenhuma licença de código foi definida explicitamente neste repositório. Antes de permitir redistribuição ou uso comercial, defina uma licença adequada e confirme a autorização para uso das imagens, textos, marca e demais conteúdos.
-
-## Contato
-
-- Instagram: [@atlasimob_](https://www.instagram.com/atlasimob_/)
-- Repositório: [karla08C/PLATAFORMAATLASIMOBILIARIA](https://github.com/karla08C/PLATAFORMAATLASIMOBILIARIA)
-
----
-
-Desenvolvido para apresentar a experiência digital da **Atlas Imobiliária** com elegância, clareza e foco no cliente.
